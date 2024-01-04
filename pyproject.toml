@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chromadb-hw-estimator"
+version = "0.0.1"
+description = "CLI utility to estimate Chroma DB hadware requirements, based on your data."
+authors = ["Trayan Azarov <trayan.azarov@amikos.tech>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "meta_indexer" }]
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/amikos-tech/chromadb-meta-indexer/issues"
+"Homepage" = "https://github.com/amikos-tech/chromadb-meta-indexer/"
+"Source" = "https://github.com/amikos-tech/chromadb-meta-indexer/"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
